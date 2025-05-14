@@ -1,0 +1,32 @@
+.image {
+  border-radius: 50%;
+  border: 1px solid gray;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  min-height: 100vh;
+  background: url(https://www.innovationnewsnetwork.com/wp-content/uploads/2021/02/Primordial-galaxy-696x392.jpg)  center center / cover no-repeat;
+   min-width: 100vw;
+}
+
+.infoWrapper {
+  display: flex;
+  gap: 20px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: 1px solid gray;
+}
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4rem;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
