@@ -1,0 +1,25 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 140px 40px 0px;
+    gap: 20px;
+    background: url(https://scitechdaily.com/images/Gas-Shroud-Starburst-Galaxy-IRAS-08339-6517-scaled.jpg) center center / cover no-repeat;
+    min-width: 100vw;
+}
+
+.itemWrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 8px 16px;
+    background-color: white;
+    align-items: center;
+}
+
+.buttonWrapper {
+    display: flex;
+    gap: 20px;
+}
