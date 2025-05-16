@@ -1,0 +1,66 @@
+{
+  "pages": {
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ],
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/page.css",
+      "static/chunks/app/page.js"
+    ],
+    "/(main)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(main)/layout.css",
+      "static/chunks/app/(main)/layout.js"
+    ],
+    "/(main)/products/error": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(main)/products/error.js"
+    ],
+    "/(main)/products/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(main)/products/loading.js"
+    ],
+    "/(main)/products/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(main)/products/page.css",
+      "static/chunks/app/(main)/products/page.js"
+    ],
+    "/(main)/profile/error": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(main)/profile/error.js"
+    ],
+    "/(main)/profile/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(main)/profile/loading.js"
+    ],
+    "/(main)/profile/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(main)/profile/page.css",
+      "static/chunks/app/(main)/profile/page.js"
+    ],
+    "/(main)/cart/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(main)/cart/page.css",
+      "static/chunks/app/(main)/cart/page.js"
+    ],
+    "/(main)/products/details/[id]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(main)/products/details/[id]/page.css",
+      "static/chunks/app/(main)/products/details/[id]/page.js"
+    ]
+  }
+}
